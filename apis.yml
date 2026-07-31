@@ -1,8 +1,28 @@
 aid: orchard-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orchard-robotics.png
 name: Orchard Robotics
-description: Orchard Robotics is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Orchard Robotics (Orchard AI, "The AI Farming Company") is an agricultural
+  technology startup founded in 2022 that builds AI-powered camera systems and
+  farm-management software for precision fruit and vine growing. Its FruitScope
+  platform mounts AI-enabled cameras on any farm vehicle to collect precise
+  per-tree and per-vine data — fruit count, size, color, and growth rate —
+  which is stored in FruitScope Vault and surfaced through FruitScope OS for
+  crop decision-making, with a Vineyard Robotics division serving grape growers.
+  Backed by General Catalyst, the company has raised roughly $22M. As of this
+  profile Orchard Robotics publishes a marketing and careers website but no
+  public API, developer portal, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/orchard-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Robotics
+- Artificial Intelligence
+- Computer Vision
+- Precision Agriculture
+- Farm Management
 apis: []
+common:
+- type: DomainSecurity
+  url: security/orchard-robotics-domain-security.yml
+- type: Website
+  url: https://www.orchard.ai/
+- type: Blog
+  url: https://www.orchard.ai/blog
+- type: Support
+  url: https://www.orchard.ai/contact
+- type: About
+  url: https://www.orchard.ai/about
+- type: Team
+  url: https://www.orchard.ai/team
+- type: LinkedIn
+  url: https://www.linkedin.com/company/orchardrobotics
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
