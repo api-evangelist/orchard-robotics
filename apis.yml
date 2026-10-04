@@ -50,7 +50,7 @@ tags:
 - AgTech
 - Robotics
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Precision Agriculture
 - Farm Management
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Computer Vision
 - Precision Agriculture
 - Farm Management
+- Computer-Vision
 apis: []
 common:
 - type: DomainSecurity
